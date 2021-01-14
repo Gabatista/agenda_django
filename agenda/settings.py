@@ -28,7 +28,9 @@ SECRET_KEY = '+vj&gu^jg*966sb6-^6msap)jvh#&+=sg06fn1g#@!_#a=tzvq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://agenda-dj.herokuapp.com',
+                 'localhost',
+                 '127.0.0.1']
 
 
 # Application definition
